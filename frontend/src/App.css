@@ -1,0 +1,115 @@
+body {
+  font-family: "Roboto, RobotoDraft, Helvetica, Arial, sans-serif;";
+}
+.App {
+  margin: 1%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.news {
+  display: flex;
+  margin: 1%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 2%;
+  width: 75%;
+}
+
+.news-data {
+  width: 85%;
+}
+
+.news-headline a {
+  text-decoration: none;
+  color: black;
+}
+
+.news-image {
+  width: 15%;
+}
+.news-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.news-headline a:hover {
+  text-decoration: underline;
+}
+
+.news-published-info {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-top: 1%;
+}
+
+.header {
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  padding-left: 1%;
+  background-color: lightgoldenrodyellow;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+.search-text {
+  text-align: center;
+  border-radius: 10px;
+  width: 20%;
+  height: 25px;
+  outline: none;
+}
+
+.search-button {
+  width: 10%;
+  margin-left: 1%;
+  border-radius: 10px;
+  background-color: lightgoldenrodyellow;
+  outline: none;
+}
